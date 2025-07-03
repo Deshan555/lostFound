@@ -10,6 +10,8 @@ class UserCreate(BaseModel):
     userType: str
     mobileNumber: str
     nationalId: str
+    is_active: bool = True
+    police_station_id: int
 
 class UserOut(BaseModel):
     id: int
@@ -26,3 +28,7 @@ class Token(BaseModel):
 class PasswordChange(BaseModel):
     current_password: str
     new_password: str
+
+class LoginRequest(BaseModel):
+    username: str
+    password: str

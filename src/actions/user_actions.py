@@ -14,7 +14,9 @@ def create_user(db: Session, user: UserCreate):
                    mobileNumber=user.mobileNumber,
                    nationalId=user.nationalId,
                    email=user.email,
-                   hashed_password=hashed_password)
+                   hashed_password=hashed_password,
+                   is_active=user.is_active,
+                   police_station_id=user.police_station_id)
     db.add(db_user)
     db.commit()
     db.refresh(db_user)
