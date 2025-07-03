@@ -27,3 +27,4 @@ class User(Base):
     police_station_id = Column(Integer, nullable=True)
 
     police_station = Column(Integer, ForeignKey('police_stations.id'), nullable=True)
+
