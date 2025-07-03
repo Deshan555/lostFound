@@ -4,30 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adb6be5c-e929-4d39-9a3c-08cde12227ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/lostFound.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cheapgaminglaptops-2048px-7981.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images-4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images_to_check/cheapgaminglaptops-2048px-7981.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images_to_check/download (4).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images_to_check/download (5).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images_to_check/download (6).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images_to_check/download (7).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images_to_check/download (8).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images_to_check/images.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images_to_check/macbookFind.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mackbookLost.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/connectionCheck.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/dbinit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/auth.py" afterDir="false" />
+    <list default="true" id="adb6be5c-e929-4d39-9a3c-08cde12227ce" name="Changes" comment="feat: new schema for lost pets">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/lostRecords_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/lostRecords_action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/user_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/user_actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/lostRecords.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/lostRecords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/custom_response.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/custom_response.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/documents_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/documents_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/electronics_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/electronics_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/jewelry_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/jewelry_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/lostRecords_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/lostRecords_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/others_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/others_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/wallets_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/wallets_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/lostRecords.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/lostRecords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +38,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Deshan555&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Deshan555/lostFound.git&quot;,
+    &quot;accountId&quot;: &quot;76c71c0b-3080-45af-b9c1-f2a9e8b8f400&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -53,28 +59,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.connectionCheck.executor": "Run",
-    "Python.dbinit.executor": "Run",
-    "Python.image.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/user/Desktop/Personal/Projects/Backend/lostFound/images_to_check",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.connectionCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dbinit.executor&quot;: &quot;Run&quot;,
+    &quot;Python.image-mattch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.image.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lostRecords_action.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/user/Desktop/Personal/Projects/Backend/lostFound/images_to_check&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images_to_check" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/services" />
+      <recent name="$PROJECT_DIR$/src/auth" />
       <recent name="$PROJECT_DIR$/images_to_check" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dbinit">
+  <component name="RunManager" selected="Python.lostRecords_action">
     <configuration name="connectionCheck" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lostFound" />
       <option name="ENV_FILES" value="" />
@@ -119,6 +129,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="image-mattch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lostFound" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image-mattch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="image" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lostFound" />
       <option name="ENV_FILES" value="" />
@@ -141,8 +173,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="lostRecords_action" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lostFound" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/actions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/actions/lostRecords_action.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lostRecords_action" />
+        <item itemvalue="Python.image-mattch" />
         <item itemvalue="Python.dbinit" />
         <item itemvalue="Python.connectionCheck" />
         <item itemvalue="Python.image" />
@@ -165,6 +221,93 @@
       <option name="presentableId" value="Default" />
       <updated>1749441844300</updated>
     </task>
+    <task id="LOCAL-00001" summary="init python project">
+      <option name="closed" value="true" />
+      <created>1749486524598</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749486524598</updated>
+    </task>
+    <task id="LOCAL-00002" summary="implement authentication logic into the system">
+      <option name="closed" value="true" />
+      <created>1749491345872</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749491345872</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat : implement file upload logic with uploads service controller">
+      <option name="closed" value="true" />
+      <created>1749492727417</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749492727417</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat : define user schemas">
+      <option name="closed" value="true" />
+      <created>1749492749529</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749492749529</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat : define data modals for table definitions">
+      <option name="closed" value="true" />
+      <created>1749554071944</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1749554071944</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat : create new modal name pets">
+      <option name="closed" value="true" />
+      <created>1749904568491</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1749904568491</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat : add new attributes to user model">
+      <option name="closed" value="true" />
+      <created>1750092564301</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750092564301</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: new schema for lost pets">
+      <option name="closed" value="true" />
+      <created>1751304845809</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1751304845809</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init python project" />
+    <MESSAGE value="implement authentication logic into the system" />
+    <MESSAGE value="feat : implement file upload logic with uploads service controller" />
+    <MESSAGE value="feat : define user schemas" />
+    <MESSAGE value="feat : define data modals for table definitions" />
+    <MESSAGE value="feat : create new modal name pets" />
+    <MESSAGE value="feat : add new attributes to user model" />
+    <MESSAGE value="feat: new schema for lost pets" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: new schema for lost pets" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/image.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
