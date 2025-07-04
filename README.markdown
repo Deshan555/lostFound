@@ -2,6 +2,8 @@
 
 A robust FastAPI-based system enhanced with image matching capabilities for managing and filtering lost item records. This system integrates MySQL for database management, stores image files on a local VM, and provides a scalable backend with an optional frontend interface.
 
+![Alt text](system.png)
+
 ## Project Overview
 
 The Lost & Found Project enables users to:
